@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.container {
+  height: auto;
+  background-color: cornflowerblue;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+}
+
+.movie-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.series-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex-basis: 17%;
+  cursor: pointer;
+}
+
+.poster {
+  width: 100px;
+  height: auto;
+}
+
+.title{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+.year{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
